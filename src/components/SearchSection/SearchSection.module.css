@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+}
+
+.inputField {
+  border: 1px solid #30363d;
+  outline: none;
+  padding: 12px 8px;
+  border-radius: 4px;
+  min-width: 270px;
+  background: transparent;
+  color: #f4f4f4;
+  font-size: 16px;
+}
+
+.inputField:focus {
+  border-color: #2f81f7;
+}
+
+.inputField::placeholder {
+  color: #7d8590;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid #30363d;
+  padding: 5px 16px;
+  color: #2f81f7;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #21262d;
+}

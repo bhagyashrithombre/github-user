@@ -1,0 +1,23 @@
+.root {
+  padding-inline: 24px;
+}
+
+.wrap {
+  padding-block: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noData {
+  color: #3b3d3f;
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.cardWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
